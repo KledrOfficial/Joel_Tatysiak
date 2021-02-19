@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script> 
+    $(document).ready(function()
+{
+  $("button").click(function()
+  {
+    var div = $("#napis"); 
+
+    div.animate({right: '800px'}, "slow");
+    div.animate({fontSize: '100px'}, "slow");
+  });
+});
+        </script> 
+    <title>Sprawdzian_JS | Joel Tatysiak</title>
+</head>
+<body>
+    
+    <header>
+        <div class="czas">
+                 <span id="sekundy">00</span> : <span id="minuty">00</span>
+        </div>
+        <button id="przycisk1" onclick="">SLIDER</button>
+        <button id="przycisk2" onclick="">ANIMACJE</button>
+        <button id="przycisk3" onclick="">OBLICZENIA</button>
+        <button id="przycisk4" onclick="">OBIEKT</button>
+        
+
+
+    </header>
+    <div class="srodek">
+        <div class="lewo">
+            <form name="mojformularz">
+                <input type="number" name="liczbaa" placeholder="Podaj a">
+                <input type="number" name="liczbab" placeholder="Podaj b">
+                <input type="number" name="liczbac" placeholder="Podaj c"><br>
+                <center><button onclick="obliczenia();">Oblicz<button><center><br><br>
+                <div id="wynik_1"></div>
+                <div id="wynik_2"></div>
+                <div id="wynik_3"></div>
+            </form>
+        </div>
+        <div class="prawo">
+            <img name="slider">
+            <br><br><br>
+            
+        </div>
+    </div>
+    <div class="dol">
+        <center><button id="animacja">Pokaż animacje</button></center>
+            <br><br><br>
+            <div style="color:white;position:absolute;" id="napis">Animowany Tekst</div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>&copy; Joel Tatysiak | 2021</footer>
+
+</body>
+</html>

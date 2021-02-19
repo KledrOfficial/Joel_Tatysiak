@@ -1,0 +1,110 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+    background-color: #353535;
+}
+header
+{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+header button
+{
+    width: 10%;
+    margin-top: 22px;
+    display: inline-block;
+    padding: 10px 1px;
+    border: none;
+    background-color: #353535;
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+header button:hover
+{
+    color: coral;
+    border-bottom: solid #0144c0 2px;
+}
+.czas
+{
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin: 20px 100px;
+}
+.srodek
+{
+    clear: both;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+.lewo
+{
+    width: 40%;
+    float: left;
+}
+form input
+{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 20px;
+    border: none;
+    background-color: #353535;
+    border-left: solid red 3px;
+    border-right: solid red 3px;
+    
+}
+input::placeholder
+{
+    color: white;
+}
+.przycisk
+{
+    border-left: none;
+    border-right: none;
+    color: aqua;
+    cursor: pointer;
+}
+.prawo
+{
+    width: 60%;
+    float: left;
+}
+.prawo img
+{
+    width: 70%;
+}
+.dol
+{
+    clear: both;
+    width: 70%;
+    margin: auto;
+}
+button
+{
+    border: none;
+    background-color: #353535;
+    color: aquamarine;
+    cursor: pointer;
+    font-size: 30px;
+}
+button:hover
+{
+    color: chartreuse;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
